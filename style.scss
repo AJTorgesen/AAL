@@ -1,0 +1,227 @@
+.navbar.navbar-default {
+    background-color: $primary !important;
+    padding-left: 1rem;
+}
+
+h1 {
+    color: $secondary !important;
+}
+
+.colfive {
+    -webkit-flex: 0 0 auto;
+    width: 41.66667%;
+    float: left;
+}
+
+@media only screen 
+  and (max-device-width: 1024px) {
+
+.colfive {
+    -webkit-flex: 0 0 auto;
+    width: 100%;
+    float: left;
+}
+}
+
+.colsix {
+    -webkit-flex: 0 0 auto;
+    margin-left: 8.333%;
+    width: 50%;
+    float: left;
+}
+
+@media only screen 
+  and (max-device-width: 1024px) {
+
+.colsix {
+    margin-left: 0;
+    margin-top: 2rem;
+    width: 100%;
+    float: left;
+}
+}
+
+
+
+.scorereport {
+    float: left;
+}
+
+.jumbotron-ui-box {
+    display: flex;
+    align-items: center;
+}
+
+.align-items-center {
+    align-items: center !important;
+    display: flex;
+    width: 100%;
+}
+
+.changebackground {
+    background: lightgray;
+}
+
+.video-container2 {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    width: 100%;
+    overflow: hidden; }
+
+.video-container2 iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.top-margin {
+    margin-top: 3rem;
+}
+
+.header-body {
+    padding: 1rem;
+    background-image: url("header-background.png");
+}
+
+.navbar:not(.fixed-bottom):not(.navbar-fixed-bottom):not(.navbar-fixed-bottom) {
+    margin-bottom: 0px;
+}
+
+.hidenav {
+    display: none;
+}
+
+.hide-video {
+    visibility: hidden;
+}
+
+.container-fluid {
+    --bs-gutter-x: 0px;
+}
+
+.home-text-container {
+    width: 60%;
+    margin: auto;
+    margin-top: 3vw;
+}
+
+.bkrd-height {
+    min-height: 95vh;
+}
+
+.aal-bold {
+    font-weight: 800;
+}
+
+.instructions-container {
+    max-width: 70rem;
+    margin: auto;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.instructions-spacing {
+    padding: 1.5rem;
+}
+
+.social-icon {
+    margin: 0.5rem;
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2rem;
+    postion: absolute;
+    bottom: 0;
+}
+
+.assessment-header {
+    padding: 2rem;
+    margin: auto;
+    width: 40%;
+}
+
+.assessment-info {
+    position: fixed;
+    bottom: 10rem;
+    left: 5rem;
+}
+
+@media only screen 
+  and (max-device-width: 1024px) {
+
+.assessment-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+}
+
+  }
+
+.assessment-main {
+    margin:auto;
+    width: 45%;
+    margin-bottom: 4rem;
+    background: white;
+    padding: 1rem; 
+}
+
+@media only screen 
+  and (max-device-width: 1024px) {
+
+.assessment-main {
+    width: 70%;  
+}
+
+  }
+
+.video-main {
+    margin:auto;
+    width: 25%;
+    
+}
+
+.modal-header {
+    display: flex;
+    justify-content: center;
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+}
+
+.modal-title {
+    font-size: 3rem;
+}
+
+.shiny-options-group {
+    font-size: 2.5rem;
+}
+
+.shiny-input-container {
+    margin: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.block-container {
+    display:block;
+}
+
+.button-margins {
+    margin:0.5rem;
+}
+
+.shiny-input-container:not(.shiny-input-container-inline) {
+    margin: auto;
+    margin-top: 2rem;
+    font-size: x-large;
+    width: 100%;
+}
+
+.navbar:not(.fixed-bottom):not(.navbar-fixed-bottom):not(.navbar-fixed-bottom)+div>.tab-content>.tab-pane {
+    margin-top: 0px !important;
+}
